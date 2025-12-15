@@ -15,8 +15,6 @@ export U_PACING_COMP_TIME_FRACTION_PERCENT=90
 
 export CHROME_FLAGS="--enable-features=MiddleClickAutoscroll"
 
-#export GTK_IM_MODULE=fcitx
-#export QT_IM_MODULE=fcitx
-export SDL_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 
+export SUDO_ASKPASS=/usr/bin/ksshaskpass
