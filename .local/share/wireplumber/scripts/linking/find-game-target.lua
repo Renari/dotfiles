@@ -7,8 +7,8 @@ local function load_config ()
 
   local apps_str = Settings.get_string ("game-target.apps")
   if apps_str then
-    for app in apps_str:gmatch ("([^,]+)") do
-      app = app:match ("^%s*(.-)%s*$")
+    for app_raw in apps_str:gmatch ("([^,]+)") do
+      local app = app_raw:match ("^%s*(.-)%s*$")
       if app ~= "" then
         apps [app] = true
       end
