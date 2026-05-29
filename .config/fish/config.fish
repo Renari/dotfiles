@@ -5,7 +5,7 @@ fenv source ~/.profile
 # overwrite greeting
 function fish_greeting
     sleep 0.1
-    fastfetch --logo ~/.config/fastfetch/Character_Silver_Wolf_Splash_Art-512.png
+    fastfetch
 end
 
 # workaround for ghostty issues with ssh
