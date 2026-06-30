@@ -42,7 +42,7 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 window-width = 128
-window-height = 26
+window-height = 25
 theme = Hatsune Miku
 background-opacity = 0.98
 cursor-style = underline
