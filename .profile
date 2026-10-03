@@ -18,3 +18,5 @@ export CHROME_FLAGS="--enable-features=MiddleClickAutoscroll"
 export XMODIFIERS=@im=fcitx
 export SUDO_ASKPASS=/usr/bin/ksshaskpass
 export GOPATH=/tmp/go
+. "$HOME/.config/godotenv/env" # Added by GodotEnv
+
